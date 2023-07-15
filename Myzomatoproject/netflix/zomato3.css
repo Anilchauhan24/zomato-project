@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    top: 0px;
+    margin: 10px;
+    width: 1300px;
+    height: 973px;
+    /* UI Properties */
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+
+.header {
+    background-color: #CE0505;
+    align-items: center;
+    /* justify-content: flex-end;*/
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 5%;
+    font: normal normal 600 33px/50px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+}
+
+.home-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+
+.home-link>ul {
+    display: inline-flex;
+    margin-right: 5%;
+
+}
+
+.home-link>ul>li {
+    list-style: none;
+    padding: 10px;
+}
+
+.home-link>ul>li>a {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: normal normal medium 16px/25px Poppins;
+    text-decoration: none;
+}
+
+li:nth-child(2) {
+    border: 1px solid white;
+}
+
+.first-para {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    margin-left: 5%;
+    top: 8px;
+}
+
+
+
+.left-content {
+    margin-top: 10px;
+    left: 113px;
+    width: 260px;
+    height: 500px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.left-content {
+    margin-left: 5%;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    ;
+}
+
+select {
+    top: 278px;
+    left: 140px;
+    width: 208px;
+    height: 30px;
+    border: 1px solid #8C96AB;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+input {
+    top: 370px;
+    left: 120px;
+    width: 18px;
+    height: 18px;
+    /* UI Properties */
+    border: 2px solid #3A5075;
+    border-radius: 2px;
+    opacity: 1;
+    text-align-last: center;
+    display: inline-block;
+}
+
+.center {
+    position: relative;
+    margin-left: 10%;
+}
+
+.grid {
+    top: 125px;
+    left: 418px;
+    width: 694px;
+    height: 200px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+}
+
+.grid>img {
+    top: 230px;
+    margin-left: 4%;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+}
+
+.line {
+    position: relative;
+    width: 90%;
+    height: 2px;
+    color: #CE0505;
+    background-color: #00000029;
+    margin-left: 4%;
+}
+
+
+.grid-one {
+    top: 350px;
+    left: 418px;
+    width: 694px;
+    height: 200px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    position: absolute;
+
+}
+
+.grid-one>img {
+    top: 230px;
+    margin-left: 4%;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+}
+
+#chill {
+    position: relative;
+    color: #192F60;
+    margin-left: 2%;
+    bottom: 48%;
+    font-size: 30px;
+}
+
+#fort {
+    position: absolute;
+    top: 15%;
+    color: #192F60;
+    text-align: left;
+    left: 1px;
+    margin-left: 24%;
+    font-size: 16px;
+
+}
+
+#plot {
+    position: absolute;
+    top: 25%;
+    color: #192F60;
+    text-align: left;
+    left: 1px;
+    margin-left: 24%;
+    font-size: 16px;
+}
+
+#cuisine {
+    position: relative;
+    margin-left: 4%;
+    top: 5%;
+
+}
+
+#cost {
+    position: relative;
+    top: 15%;
+    text-align: left;
+    display: inline-block;
+    right: 11%;
+}
+
+.pagination {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: flex-end;
+    color: red;
+    margin-left: 45%;
+}
+
+.pagination>a {
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    /* border-bottom: #8C96AB;*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+
+}
+
+.pagination>a:hover {
+    background-color: #EB2929;
+    text-decoration: wavy;
+    font-size: larger;
+}
+
+.pagination>a:active {
+    background: #0c3690 0% 0% no-repeat padding-box;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+}
